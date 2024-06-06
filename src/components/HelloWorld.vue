@@ -36,6 +36,11 @@
     <v-main class="main1 bg-white overflow-x-hidden" style="scroll-snap-type: y mandatory; overflow-y: auto; height: calc(100vh - 64px);">
       <v-container class="justify-center align-center d-flex flex-column con1 scroll-snap-align-start" style="min-height: 100vh;">
         <v-row align="center" justify="center">
+          <v-col cols="12" md="6" order-xl="1" order-lg="1" order-md="1" class="text-center">
+            <h1 class="display-3 font-weight-bold mb-2">Питайтесь по-новому</h1>
+            <p class="subtitle-1 mx-auto">Встречайте сервис планирования приемов пищи, поиска продуктов, анализирования питания.</p>
+            <v-btn class="" color="black" :size="buttonSize" rounded="lg">Зарегистрироваться</v-btn>
+          </v-col>
           <v-col cols="12" md="6" order-xl="2" order-lg="2" order-md="2" class="justify-center d-flex">
             <div class="info-container">
               <v-row>
@@ -60,11 +65,7 @@
               </v-row>
             </div>
           </v-col>
-          <v-col cols="12" md="6" order-xl="1" order-lg="1" order-md="1" class="text-center">
-            <h1 class="display-3 font-weight-bold mb-2">Питайтесь по-новому</h1>
-            <p class="subtitle-1 mx-auto">Встречайте сервис планирования приемов пищи, поиска продуктов, анализирования питания.</p>
-            <v-btn class="" color="black" :size="buttonSize" rounded="lg">Зарегистрироваться</v-btn>
-          </v-col>
+
         </v-row>
       </v-container>
 
